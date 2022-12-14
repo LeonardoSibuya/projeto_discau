@@ -1,0 +1,95 @@
+header {
+    background-image: linear-gradient(to top, #276139, #0dd649);
+}
+
+header img {
+    max-width: 20%;
+    margin-bottom: 10px;
+}
+
+a.nav-link {
+    color: #e9ecee;
+}
+
+a.nav-link:hover {
+    color: #9da1a3;
+    text-decoration: underline;
+}
+
+#cabecalho .nav .nav-link.active,
+.nav-jogos {
+    background-color: #18422E;
+    color: #e9ecee;
+}
+
+.navbar-toggler {
+    background-color: #4ab14a;
+}
+
+.carousel-item img {
+    height: 300px;
+}
+
+#sobre,
+#contato {
+    background-color: #d6ffce;
+}
+
+#produtos {
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+.colored {
+    color: #18422E;
+}
+
+.linha {
+    width: 100%;
+    border: .5px solid #228522;
+}
+
+.tab-content a {
+    text-decoration: none;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #4ab14a;
+}
+
+.nav-pills .nav-link {
+    background-color: none;
+}
+
+.nav .nav-produtos{
+    background-color: #fff;
+}
+
+.nav-produtos:hover,
+.nav-link:hover {
+    color: #228522;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a,
+.contato a {
+    text-decoration: none;
+}
+
+.social-links a:hover,
+.contato a:hover {
+    text-decoration: underline;
+    color: #228522;
+}
+
+
+@media (min-width: 1024px) {
+    header img {
+        width: 10%;
+        margin-bottom: 10px;
+    }
+}
